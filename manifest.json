@@ -1,0 +1,25 @@
+{
+	"manifest_version": 3,
+	"name": "Persistent Service worker",
+	"version": "0.0.0",
+	"description": "Updates the badge text every second",
+	"icons": {
+		"32": "icons/tv-32.png",
+		"64": "icons/tv-64.png",
+		"128": "icons/tv-128.png"
+	},
+	"background": {
+		"service_worker": "background.js"
+	},
+	"action": {
+		"default_icon": {
+			"16": "icons/tv-16.png",
+			"20": "icons/tv-20.png",
+			"32": "icons/tv-32.png"
+		},
+		"default_title": "Persistent Service worker"
+	},
+	"permissions": [
+		"offscreen"
+	]
+}
